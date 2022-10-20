@@ -1,0 +1,211 @@
+/*Whole page*/
+.body{
+  background-color: lightgray;
+}
+
+
+/*Menu*/
+.vertical a {
+
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 25px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+
+
+  /*Menu ancors*/
+.vertical a:hover{
+    background-color: red;
+    color: white;
+  }
+
+/*Menu ancor with on id*/
+#on
+{
+    background-color: black;
+    color: white;
+}
+
+/*Menu ancor with hover*/
+.btn:hover{
+    background-color: red;
+    color: white;
+} 
+
+/*Show all drivers table*/
+#driversTable
+{
+  margin-top: 10%;
+  width: 90%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/*Show single driver table*/
+#driverTable
+{
+  margin-top: 10%;
+  width: 90%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/*Table header for all tables*/
+#thtr
+{
+  background-color: black;
+  color: white;
+  height: 40px;
+  
+}
+
+/*Table body rows for all tables*/
+#tbtr
+{
+  background-color: grey;
+  text-align: center;
+  color: white;
+  height: 40px;
+}
+
+/*Main header*/
+.header{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+ align-content: center;
+ background-color: #A41720;
+ text-align: center;
+ border-color: black;
+ border-style: solid;
+ color: white;
+ 
+}
+
+/*When the user wants to submit an ID*/
+#driverIDEnterBox{
+  height: 50px;
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 25%;
+  text-indent: 2%;
+
+}
+
+/*When the user submits an id*/
+#driverIDEntersubmit{
+  height: 50px;
+  width: 10%;
+  margin-top: 10%;
+  margin-left: 2%;
+  background-color: blue;
+  color: white;
+
+}
+
+/*When the user updates the rating*/
+#driverRatingEnterBox{
+  height: 50px;
+  width: 10%;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+/*When the user submits the uodated rating*/
+#driverRatingEnterSubmit{
+  height: 50px;
+  width: 10%;
+  margin-top: 10%;
+  margin-left: 2%;
+  background-color: blue;
+  color: white;
+}
+
+/*When the user cancels an update */
+#driverRatingEnterCancel{
+  height: 50px;
+  width: 10%;
+  margin-top: 10%;
+  margin-left: 2%;
+
+}
+
+/*When the user fires a driver button*/
+#driverFireButton{
+    height: 50px;
+    width: 10%;
+    margin-top: 10%;
+    margin-left: 35%;
+    background-color: red;
+    color: white;
+
+}
+
+
+
+
+/*When the user creates a new driver*/
+#driverFNameEnterBox{
+  height: 50px;
+  width: 10%;
+  margin-top: 5%;
+  margin-left: 20%;
+  display: block;
+}
+
+/*When the user creates a new driver*/
+#driverLNameEnterBox{
+  height: 50px;
+  width: 10%;
+  margin-top: 1%;
+  margin-left: 20%;
+  display: block;
+
+}
+
+/*When the user creates a new driver*/
+#driverRateEnterBox{
+    height: 50px;
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 20%;
+    display: block;
+}
+
+/*When the user creates a new driver*/
+#driverCreateButton{
+  height: 50px;
+  width: 10%;
+  margin-top: 1%;
+  margin-left: 20%;
+  display: block;
+}
+
+/*When the user submits a new driver*/
+#driverNewDriverSubmit{
+    
+  height: 50px;
+  width: 10%;
+  margin-top: 10%;
+  margin-left: 35%;
+  background-color: blue;
+  color: white;
+}
+/*When the user cancles a created driver*/
+#driverNewDriverCancel
+{
+
+  height: 50px;
+  width: 10%;
+  margin-top: 10%;
+  margin-left: 2%;
+
+}
+
